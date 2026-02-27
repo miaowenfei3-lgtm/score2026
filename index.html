@@ -160,6 +160,12 @@ gtag('config', 'UA-100524-7', {'sample_rate': 5});
                 <van-button size="large" type="primary" tag="a" href="#" target="_self">返回</van-button>
             </van-cell>
         </van-cell-group>
+         </template>
+    <template v-else>
+        <template v-if="cj.zsdwsm">
+            <div class="yzwb-notice-bar" style="word-break:break-all;">
+                招生单位说明：{{cj.zsdwsm}}
+            </div>
         </template>
         <van-panel>
             <van-field
